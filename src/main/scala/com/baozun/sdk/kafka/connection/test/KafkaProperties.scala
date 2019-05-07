@@ -1,5 +1,4 @@
-package com.baozun.sdk.kafka
-
+package com.baozun.sdk.kafka.connection.test
 
 /**
   * kafka 配置信息
@@ -12,7 +11,7 @@ object KafkaProperties {
   val CONNECTION_TIMEOUT = 100000
   //val TOPIC2 = "topic2"
   //val TOPIC3 = "topic3"
-  val CLIENT_ID = "SimpleConsumerDemoClient"
+  val CLIENT_ID = "SimpleConsumerClient"
 }
 
 class KafkaProperties private() {
